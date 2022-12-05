@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>JS Outputs</title>
+</head>
+<body>
+    
+    <div id="example">
+    </div>
+
+    <div id="for_print">
+        <button onclick="print_content()">Click to print</button>
+    </div>
+
+    <script>
+        // innerHTML
+        document.getElementById("example").innerHTML = "innerHTML inserts stuffs when an id, name, etc. is chosen."
+        // document.write()
+        document.write("document.write - used for testing purposes.")
+        // window.alert()
+        window.alert("window.alert - just opens an alert box.")
+        // console.log()
+        console.log("console.log() - writes only in console.")
+        // window.print()
+        function print_content(){
+            window.print();
+        }
+    </script>
+
+</body>
+</html>

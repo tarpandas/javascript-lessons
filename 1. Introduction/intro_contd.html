@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>JS Basics (contd.)</title>
+    <!--
+        If we need to import an external js file, we do the following:
+            <script src="external-js.js"></srcipt>
+        We can inport multiple external js files:
+            <script src="external-js-1.js"></script>
+            <script src="external-js-2.js"></script>
+        We can import js file from a file path
+            <script src="/js/external-js.js"></script>
+    -->
+</head>
+<body>
+
+    <div id = "example">
+        <button onclick="fun()">Click to test</button>
+    </div>
+
+    <script>
+        function fun(){
+            document.getElementById('example').innerHTML = 'Test Successful!';
+        }
+    </script>
+
+</body>
+</html>
